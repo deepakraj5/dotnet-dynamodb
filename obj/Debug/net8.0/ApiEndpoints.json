@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "SampleDotNetDynamo.Controllers.CustomerController",
+    "Method": "CreateCustomer",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SampleDotNetDynamo.Models.Dto.CreateCustomerRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleDotNetDynamo.Controllers.CustomerController",
+    "Method": "ListCustomers",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SampleDotNetDynamo.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SampleDotNetDynamo.WeatherForecast, SampleDotNetDynamo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
